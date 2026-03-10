@@ -2,13 +2,50 @@
 using namespace std;
 
 int main(){
+	/*numero es positivo>0 o negativo<0
 	int num=0;
-
 	cout<<"ingrese un valor"<<endl;
-
 	cin>>num;
 
-	return 0;
+	if(num>0){
+		//entra a ca cuando la condicion es verdadera
+	cout<<"positivo"<<endl;
+	}else{
+	  	if(num==0){
+		  cout<<"neutro"<<endl;
+	  	  }else{
+			cout<<"negativo"<<endl;
+	  	}
+	cout<<"ambito general"<<endl;
+	}
 
-	system("pausa");
+	string pais="";
+	cout<<"Ingrese el pais"<<endl;
+	cin>>pais;
+	  if(pais=="guatemala"){
+	    cout<<"yo soy de"<<" "<<pais<<" "<<"mi pais"<<endl;
+	  }else{
+	    cout<<pais<<endl;
+	  }
+
+	//determinar si un numer es par o impar
+
+	int num=0;
+	cout<<"ingrese un numero"<<endl;
+	cin>>num;
+
+	//dividir un numero dos su residuo es cero entonces es par caso contrario es impar
+	if((num%2)==0){
+	  cout<<"Par"<<endl;
+	    }else{
+		cout<<"Impar"<<endl;
+	    }*/
+
+	//video -27
+
+	
+
+
+	system("pause");
+	return 0;
 }
