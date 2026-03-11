@@ -39,13 +39,43 @@ int main(){
 	  cout<<"Par"<<endl;
 	    }else{
 		cout<<"Impar"<<endl;
-	    }*/
+	    }
 
-	//video -27
+	//and (y) && el valor es verdadero si ambas  son verdadera,
+	//or (o) || el valor es verdadero si por lo menso una es verdadera.	
+	//puede entrar a mi clase si usted un lapiz o lapicero y un cuaderno.
 
-	
+	char lapiz,lapicero,cuaderno;
+
+	cout<<"traen lapiz (s/n):";
+	cin>>lapiz;
+	cout<<"trae lapicero(s/n):";
+	cin>>lapicero;
+	cout<<"Trae libreta (s/n):";
+	cin>>cuaderno;
+	if((lapiz=='s'|| lapicero=='s') && cuaderno  =='s' ){
+	  cout<<"Ingresa"<<endl;
+	  }else{
+		cout<<"Lo siento no puede ingresar"<<endl;
+	    }
+
+	*/
+	//funciona = si
+	//es eficiente..
+	int codigo=0;
+	cout<<"ingrese el codigo de are:";
+	cin>>codigo;
+	switch(codigo){
+	  case 502 :
+	    cout<<"Guatemala"<<endl;
+	    break;
+	  case 503 :
+	    cout<<"Salvador"<<endl;
+	    break;
+	  default :
+	    cout<<"Este codigo no es de centroamerica"<<endl;
+	}
 
 
-	system("pause");
 	return 0;
 }
