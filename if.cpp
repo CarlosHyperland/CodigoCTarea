@@ -91,5 +91,6 @@ int main(){
 	mensaje = promedio> = 61 ? "Aprobado" :"Reprobado";
 	cout<<mensaje<<endl;
 
+
 	return 0;
 }
