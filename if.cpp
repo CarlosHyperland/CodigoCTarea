@@ -88,7 +88,7 @@ int main(){
 	cout<<promedio<<endl;
 
 	string mensaje="";
-	mensaje = promedio>=61 "Aprobado" :"Reprobado";
+	mensaje = promedio> = 61 ? "Aprobado" :"Reprobado";
 	cout<<mensaje<<endl;
 
 	return 0;
