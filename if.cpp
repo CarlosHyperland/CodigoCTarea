@@ -59,7 +59,7 @@ int main(){
 		cout<<"Lo siento no puede ingresar"<<endl;
 	    }
 
-	*/
+	
 	//funciona = si
 	//es eficiente..
 	int codigo=0;
@@ -74,8 +74,22 @@ int main(){
 	    break;
 	  default :
 	    cout<<"Este codigo no es de centroamerica"<<endl;
-	}
+	}*/
 
+	int n1=0,n2=0,n3=0, promedio =0;
+	cout<<"Ingrese nota 1:";
+	cin>>n1;
+	cout<<"Ingrese nota 2:";
+	cin>>n2;
+	cout<<"Ingrese nota 3:";
+	cin>>n3;	
+	promedio = (n1+n2+n3)/3;
+
+	cout<<promedio<<endl;
+
+	string mensaje="";
+	mensaje = promedio>=61 "Aprobado" :"Reprobado";
+	cout<<mensaje<<endl;
 
 	return 0;
 }
