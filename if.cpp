@@ -88,8 +88,18 @@ int main(){
 	cout<<promedio<<endl;
 
 	string mensaje="";
-	mensaje = promedio> = 61 ? "Aprobado" :"Reprobado";
-	cout<<mensaje<<endl;
+	mensaje = promedio >= 61 ? "Aprobado" :"Reprobado";
+	cout<<"Su promedio es de "<<promedio<<" "<<"Por lo tanto"<<" "<<mensaje<<endl;
+
+	if(promedio>=0 && promedio<61){
+	  cout<<"Mala nota"<<endl;
+	}
+	if(promedio>=61 && promedio<81){
+	  cout<<"Buena nota"<<endl;
+	}
+	if(promedio>=81){
+	  cout<<"Exelente notas"<<endl;
+	}
 
 
 	return 0;
